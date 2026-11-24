@@ -1,0 +1,103 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#57627a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin:0 12px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid #38bdf8;
+}
+
+.hero h1{
+font-size:50px;
+margin-top:20px;
+}
+
+span{
+color:#38bdf8;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+section{
+padding:80px 10%;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card,.cards div{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover,
+.cards div:hover{
+transform:translateY(-10px);
+background:#334155;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+}
+
+.light{
+background:white;
+color:rgba(0, 0, 0, 0);
+}
